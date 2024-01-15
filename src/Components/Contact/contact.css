@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  .box{
+    max-width: 100%;
+    max-height:100%;
+    height:45rem;
+    position:relative;
+  }
+  .smallBox{
+    max-width:100%;
+    max-height:100%;
+    width:30rem;
+    height:29rem;
+    position: absolute;
+    top:22%;
+    left:35%;
+    display:flex;
+    flex-direction: column;
+    border:1px solid black;
+    padding:0.8rem;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px 1px rgb(192, 192, 192);
+  }
+  .smallBox .heading{
+    font-family:cursive;
+    color:rgb(0, 0, 118);
+    size:1.5rem;
+    padding-bottom: 3%;
+  }
+  .smallBox .content{
+   display: flex;
+   flex-direction: column;
+   gap:1.5rem;
+  }
+  .smallBox .content input{
+    height:2rem;
+    border:2px solid rgb(0, 0, 118);
+    border-radius:5px;
+    padding:10px;
+    outline:none;
+  }
+  .smallBox .content input[type="text"]{
+    font-size: 1.3rem;
+    color:rgb(65, 65, 65);
+    font-weight: bolder;
+    font-family:'Times New Roman', Times, serif;
+    outline:none;
+   
+  }
+  .smallBox .content input[type="email"]{
+    font-size: 1.3rem;
+    color:rgb(65, 65, 65);
+    font-weight: bolder;
+    font-family:'Times New Roman', Times, serif;
+    outline:none;
+   
+  }
+  .smallBox .content textarea{
+    height:8rem;
+    border:2px solid rgb(0, 0, 118);
+    border-radius:5px;
+    padding:10px;
+    resize: none;
+    font-size: 1.3rem;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(65, 65, 65);
+    font-weight: bolder;
+    outline:none;
+  }
+  .smallBox .content .btn{
+    width:30%;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-left: 10rem;
+   
+  }
+  

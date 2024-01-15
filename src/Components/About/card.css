@@ -1,0 +1,38 @@
+.container .box{
+    max-width: 100%;
+    max-height: 80%;
+    height: 25%;
+    width:80%;
+    padding:2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow: hidden;
+    border:none;
+    border-radius: 2.5rem;
+    padding-left: 3.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  
+  }
+  .container .box .heading{
+    font-size: 2rem;
+    font-family: cursive;
+    text-transform: uppercase;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 1rem;
+  }
+  .container .box .content{
+    font-size: 1.2rem;
+    font-family:cursive;
+    font-weight: bold;
+    color:rgb(122, 80, 25);
+    padding-left: 1rem;
+  }
+  .container .box .content .list li{
+    padding-block: 0.3rem;
+  }
+  .container .box .content .list li::marker{
+    color:black;
+    font-size: 1.5rem;
+  }

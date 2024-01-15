@@ -1,0 +1,23 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+  }
+  .container{
+    max-width:100%;
+    max-height:100%;
+    position: relative;
+  }
+  .container .headline{
+      display: flex;
+      max-width: 100%;
+      font-size: 3rem;
+      color: rgb(6, 6, 77);
+      font-family: cursive;
+      font-weight: bolder;
+      height:10rem;
+      justify-content:center;
+      text-align: center;
+      align-items: center;
+  }
+  
